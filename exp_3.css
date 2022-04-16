@@ -1,0 +1,37 @@
+.container {
+    width: 100%;
+    background-color: aquamarine;
+
+}
+.left {
+    width: 33.33%;
+    border: 2px solid black;
+        border-color: black;
+        float: left;
+}
+.middle {
+    width: 33.33%;
+    border: 2px solid black;
+        border-color: black;
+        float: left;
+}
+.right {
+    width: 33.33%;
+    border: 2px solid black;
+        border-color: black;
+        float: left;
+}
+div .left:hover,h1:hover,div .right:hover,div .middle:hover {
+    transform: scale(1.5);
+    background-color: aqua;
+}
+h1 {
+    text-align: center;
+}
+div {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+body {
+    background-color: rgb(205, 213, 247);
+}
